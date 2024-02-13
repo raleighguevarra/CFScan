@@ -55,12 +55,12 @@ Ensure your `urls.txt` file contains one URL per line.
 ### Multiple URLs
 
 ```
-+-------------------------+---------------------+-------------------------------+
-|           URL           |        Status       |             Detail            |
-+-------------------------+---------------------+-------------------------------+
-| https://example.com     | Not behind Cloudflare | Not behind Cloudflare        |
-| https://cloudflare.com  | Behind Cloudflare   | Uses Cloudflare NS            |
-+-------------------------+---------------------+-------------------------------+
++-------------------------+-----------------------+-------------------------------+
+|           URL           |        Status         |             Detail            |
++-------------------------+-----------------------+-------------------------------+
+| https://example.com     | Not behind Cloudflare | Not behind Cloudflare         |
+| https://cloudflare.com  | Behind Cloudflare     | Uses Cloudflare NS            |
++-------------------------+-----------------------+-------------------------------+
 ```
 
 ## Author
