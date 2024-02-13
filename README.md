@@ -1,4 +1,3 @@
-```markdown
 # Cloudflare Checker
 
 This Python script checks if a website or websites listed in a file are behind the Cloudflare network by analyzing their DNS records and IP addresses. It allows for scanning a single URL or multiple URLs from a file.
